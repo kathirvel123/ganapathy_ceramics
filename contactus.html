@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>About us</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+        <a href="index.html">GANAPATHY_CERAMICS</a>
+    </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About_us</a></li>
+            <li ><a href="product.html">Products</a></li>
+            <li><a href="contactus.html">Contact_us</a></li>
+            
+        </ul>
+        <img  class="menubar" src="img/more.png" >
+    </nav>
+    <div class="contactcontainer">
+        <div class="first">
+            <h1 class="thala">Contact us</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15637.313402160375!2d79.3289509!3d11.5282871!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bab4b584b1a43d1%3A0x30a8813f41df5834!2sGANAPATHY%20CERAMICS!5e0!3m2!1sen!2sin!4v1715944139385!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="inf">
+                <h1 style="padding-top: 50px;">MOBILE-NO:<span>+919843250173</span> <span>+918940365088</span></h1>
+                <h1 style="padding-top: 50px;">EMAIL:<a href="mailto:krm.ganapathy@gmail.com" style="text-decoration: none; color: black;">krm.ganapathy@gmail.com</a></h1>
+                <h1 style="padding-top: 50px;">WEBSITE:<a href="https://www.kathirvelrefractories.com/index.html" tyle="text-decoration: none; color: black;">Kathirvel Refraction & Minerals</a></h1>
+            </div>
+        </div>
+        <div class="second">
+            <input type="Firstname" placeholder="Firstname">
+            <input type="Lastname" placeholder="Lastname">
+            <input type="Mobile no" placeholder="Mobile no">
+            <input type="Subject" placeholder="Subject">
+            <textarea placeholder="Description"></textarea>
+            <button type="submit">Submit</button>
+
+        </div>
+    </div>
+
+
+    <script>
+        AOS.init();
+        const a=document.querySelector('.menubar')
+        const b=document.querySelector('nav ul')
+        a.addEventListener('click',()=>{
+            b.classList.toggle("showbar")
+        })
+    </script>
+</body>
+</html>
